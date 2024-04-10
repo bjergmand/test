@@ -13,6 +13,12 @@ import App from './App.vue'
 // Composables
 import { createApp } from 'vue'
 
+import { Amplify } from 'aws-amplify';
+
+import amplifyconfig from './amplifyconfiguration.json';
+
+Amplify.configure(amplifyconfig);
+
 const app = createApp(App)
 
 registerPlugins(app)
