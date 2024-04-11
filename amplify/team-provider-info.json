@@ -20,6 +20,9 @@
           "appId": "d1sqwfc901jq0g",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "todoe020bcbb": {}
       }
     }
   }
