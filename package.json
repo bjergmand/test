@@ -7,6 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.3",
     "@mdi/font": "6.2.95",
     "aws-amplify": "^6.0.28",
     "roboto-fontface": "*",
